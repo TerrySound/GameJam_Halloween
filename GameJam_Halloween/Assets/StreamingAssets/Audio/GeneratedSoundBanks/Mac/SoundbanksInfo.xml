@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\terry\Documents\GameJam_Halloween\GameJam_Halloween\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3071028539">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2162288179" Language="SFX" Hash="654207159">
+			<ObjectPath>\SoundBanks\Default Work Unit\SNB_Test</ObjectPath>
+			<ShortName>SNB_Test</ShortName>
+			<Path>SNB_Test.bnk</Path>
+			<IncludedEvents>
+				<Event Id="379521629" Name="Test_Music" ObjectPath="\Events\Default Work Unit\Test_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="313435073" Language="SFX">
+							<ShortName>Test\Halloween Theme Song - John Carpenter.wav</ShortName>
+							<Path>SFX\Test\Halloween Theme Song - John Carpenter_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

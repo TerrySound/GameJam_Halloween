@@ -64,4 +64,5 @@ crashlytics-build.properties
 *.validationcache
 [Aa]ssets/WwiseSettings.xml
 [Aa]ssets/WwiseSettings.xml.meta
+English(US).meta
 

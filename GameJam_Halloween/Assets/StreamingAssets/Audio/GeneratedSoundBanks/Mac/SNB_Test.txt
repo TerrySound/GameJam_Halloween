@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	379521629	Test_Music			\Default Work Unit\Test_Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	313435073	Test_Music	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Test\Halloween Theme Song - John Carpenter_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Test_Music		8647904
+
