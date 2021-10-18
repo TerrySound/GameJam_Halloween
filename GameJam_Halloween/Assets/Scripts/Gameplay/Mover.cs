@@ -9,6 +9,8 @@ public class Mover : MonoBehaviour
     [SerializeField] float yValue = 0f;
     float zValue = 0f;
     [SerializeField] float speedCoefficient = 1f;
+    public Animator animator;
+    public int rotationSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +26,21 @@ public class Mover : MonoBehaviour
 
     private void Move()
     {
-        float xValue = (Input.GetAxis("Horizontal") * Time.deltaTime) * speedCoefficient;
-        float yValue = (Input.GetAxis("Vertical") * Time.deltaTime) * speedCoefficient;
-        transform.Translate(xValue, yValue, 0f);
+        float xValue = (Input.GetAxis("Horizontal"));
+        float yValue = (Input.GetAxis("Vertical"));
+
+        animator.SetFloat("Speed", Mathf.Abs(xValue) + Mathf.Abs(yValue));
+
+        Vector2 movementDirection = new Vector2(xValue, yValue);
+        movementDirection.Normalize();
+
+        transform.Translate(movementDirection * speedCoefficient * Time.deltaTime, Space.World);
+
+        if (movementDirection != Vector2.zero)
+        {
+            Quaternion toRotation = Quaternion.LookRotation(Vector3.forward,movementDirection);
+
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
     }
 }
