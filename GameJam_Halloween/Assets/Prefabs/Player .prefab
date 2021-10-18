@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 8692835501649353910}
   - component: {fileID: 8692835501649353911}
   - component: {fileID: 8692835501649353912}
+  - component: {fileID: 4416546889365639102}
   - component: {fileID: 8692835501649353913}
   m_Layer: 0
   m_Name: 'Player '
@@ -375,6 +376,19 @@ MonoBehaviour:
   xValue: 0
   yValue: 0
   speedCoefficient: 5
+--- !u!114 &4416546889365639102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692835501649353914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e911d3eaeb1204eb9ec8ffcb6e8567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fearPoints: 0
 --- !u!65 &8692835501649353913
 BoxCollider:
   m_ObjectHideFlags: 0
