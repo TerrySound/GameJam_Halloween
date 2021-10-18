@@ -10,11 +10,14 @@ public class Fear_gauge : MonoBehaviour
     [SerializeField] public int minFearPoints = 0;
     public float fearBarLength;
 
+    public GameObject textDisplayLose;
+
     Ghost ghost;
 
     // Start is called before the first frame update
     void Start()
     {
+        textDisplayLose.SetActive(false);
         ghost = FindObjectOfType<Ghost>();
         fearBarLength = Screen.width / 2;
     }
@@ -40,6 +43,7 @@ public class Fear_gauge : MonoBehaviour
         if (fearPoints >= 100)
         {
             fearPoints = 100;
+            textDisplayLose.SetActive(true);
         }
         fearBarLength = (Screen.width / 2) * (fearPoints / (float)maxFearPoints);
     }
