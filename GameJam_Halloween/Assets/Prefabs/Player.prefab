@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 9049737975272086949}
   - component: {fileID: 9049737975272086950}
   - component: {fileID: 9049737975272086951}
+  - component: {fileID: 1618405678}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +102,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 56
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &9049737975272086949
 BoxCollider:
@@ -152,6 +153,23 @@ MonoBehaviour:
   speedCoefficient: 5
   animator: {fileID: 9049737975272086950}
   rotationSpeed: 500
+--- !u!114 &1618405678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4852961370266431685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e911d3eaeb1204eb9ec8ffcb6e8567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fearPoints: 0
+  maxFearPoints: 100
+  minFearPoints: 0
+  fearBarLength: 0
+  textDisplayLose: {fileID: 0}
 --- !u!1001 &532418282
 PrefabInstance:
   m_ObjectHideFlags: 0
