@@ -35,7 +35,7 @@ namespace UB.Simple2dWeatherEffects.Standard
         private void Update()
         {
            _difference = CamTransform.position - _firstPosition;
-           // _previousPosition = CamTransform.position;
+          // _previousPosition = CamTransform.position;
         }
 
         void OnRenderImage(RenderTexture source, RenderTexture destination)

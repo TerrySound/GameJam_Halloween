@@ -162,8 +162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CamTransform: {fileID: 8215970741014634770}
   CameraSpeedMultiplier: 0
-  Color: {r: 0.6825561, g: 0.75604284, b: 0.7830189, a: 1}
-  Size: 6.14
+  Color: {r: 0.5648629, g: 0.71739054, b: 0.7735849, a: 1}
+  Size: 3.19
   HorizontalSpeed: 0.39
   VerticalSpeed: 0.41
   Density: 0.42
