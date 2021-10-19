@@ -11,6 +11,7 @@ public class Fear_gauge : MonoBehaviour
     public float fearBarLength;
 
     public GameObject textDisplayLose;
+    public GameObject deathbButton;
 
     Ghost ghost;
 
@@ -18,8 +19,10 @@ public class Fear_gauge : MonoBehaviour
     void Start()
     {
         textDisplayLose.SetActive(false);
+        deathbButton.SetActive(false);
         ghost = FindObjectOfType<Ghost>();
         fearBarLength = Screen.width / 2;
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -44,6 +47,9 @@ public class Fear_gauge : MonoBehaviour
         {
             fearPoints = 100;
             textDisplayLose.SetActive(true);
+            deathbButton.SetActive(true);
+            Time.timeScale = 0;
+
         }
         fearBarLength = (Screen.width / 2) * (fearPoints / (float)maxFearPoints);
     }
