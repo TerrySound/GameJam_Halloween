@@ -9,7 +9,7 @@ public class Player_Score : MonoBehaviour
     [SerializeField] TextMeshProUGUI text;
     int indice = 0;
     [SerializeField] TextMeshProUGUI speedText;
-    private int i = 0;
+    //private int i = 0;
 
     Mover move;
 

@@ -7,12 +7,12 @@ public class Ghost : MonoBehaviour
     // Variables
     [SerializeField] public int fearPointsInflict = 10;
 
-    Fear_gauge fear;
+    public PlayerFear player;
 
     // Start is called before the first frame update
     void Start()
     {
-        fear = FindObjectOfType<Fear_gauge>();
+        player = FindObjectOfType<PlayerFear>();
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class Ghost : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            fear.AdjustCurrentFear(fearPointsInflict);
+            player.TakeFear(fearPointsInflict);
         }
     }
 }
