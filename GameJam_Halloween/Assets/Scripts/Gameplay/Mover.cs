@@ -8,7 +8,7 @@ public class Mover : MonoBehaviour
     [SerializeField] float xValue = 0f;
     [SerializeField] float yValue = 0f;
     float zValue = 0f;
-    [SerializeField] float speedCoefficient = 1f;
+    [SerializeField] public float speedCoefficient = 1f;
     public Animator animator;
     public int rotationSpeed;
 

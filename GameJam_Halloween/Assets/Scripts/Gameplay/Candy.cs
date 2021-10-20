@@ -18,7 +18,7 @@ public class Candy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player.AddPoints(scorePoints);
+            player.ManagePoints(scorePoints);
             Destroy(gameObject);
         }
     }
