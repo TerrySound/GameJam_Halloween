@@ -223,7 +223,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 496855957}
         m_TargetAssemblyTypeName: GameFlow, Assembly-CSharp
-        m_MethodName: ReplayGame
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -495,6 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce0e6576f1215548b2455f37a9e333d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialText: {fileID: 0}
 --- !u!114 &2444314545444910484
 MonoBehaviour:
   m_ObjectHideFlags: 0

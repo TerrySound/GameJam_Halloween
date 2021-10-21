@@ -5,8 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class GameFlow : MonoBehaviour
 {
-    public void ReplayGame()
+    public GameObject tutorialText;
+    public GameObject quitButton;
+
+    public void PlayGame()
     {
         SceneManager.LoadScene("MainScene");
+    }
+
+    public void QuitGame() 
+    {
+        Application.Quit();
+    }
+
+    public void DisplayTutorial()
+    {
+        tutorialText.SetActive(true);
+        quitButton.SetActive(false);
+
+    }
+
+    public void CloseTutorial() 
+    {
+        tutorialText.SetActive(false);
+        quitButton.SetActive(true);
     }
 }
