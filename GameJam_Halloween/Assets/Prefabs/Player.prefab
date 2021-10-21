@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &65326283
 RectTransform:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &669687843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -545,6 +545,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3458155132733014421, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 294.2845
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458155132733014421, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -147.14258
+      objectReference: {fileID: 0}
     - target: {fileID: 3710304756422388912, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_fontSize
       value: 60
@@ -651,11 +659,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5057272021219696760, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1023.3487
+      value: -221
       objectReference: {fileID: 0}
     - target: {fileID: 5057272021219696760, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 181.20337
+      value: 149
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009599171993174138, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: secondLeft
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 6668242699072221113, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_FontData.m_MinSize
