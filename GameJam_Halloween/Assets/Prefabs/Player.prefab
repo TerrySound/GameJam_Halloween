@@ -496,6 +496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialText: {fileID: 0}
+  quitButton: {fileID: 0}
 --- !u!114 &2444314545444910484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +512,7 @@ MonoBehaviour:
   maxFear: 100
   minFear: 0
   currentFear: 0
+  iterationHitColor: 2
   fearBar: {fileID: 8709147434325817739}
   textDisplayLose: {fileID: 573088492}
   deathbButton: {fileID: 669687842}

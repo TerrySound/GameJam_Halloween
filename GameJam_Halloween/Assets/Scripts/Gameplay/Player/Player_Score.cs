@@ -34,25 +34,25 @@ public class Player_Score : MonoBehaviour
         {
             indice += 1;
             move.speedCoefficient += 1;
-            StartCoroutine(SpriteSet());
+            StartCoroutine(SpeedIncrease());
         }
         if (points >= 10 && indice <= 1)
         {
             indice += 1;
             move.speedCoefficient += 1;
-            StartCoroutine(SpriteSet());
+            StartCoroutine(SpeedIncrease());
         }
         if (points >= 15 && indice <= 2)
         {
             indice += 1;
             move.speedCoefficient += 1;
             speedText.text = "Speed Increased to the Maximum !";
-            StartCoroutine(SpriteSet());
+            StartCoroutine(SpeedIncrease());
         }
     }
-    IEnumerator SpriteSet()
+    IEnumerator SpeedIncrease()
     {
-        for(int i = 0; i < 3; i++)
+        for(int i = 0; i < 5; i++)
         {
             yield return new WaitForSeconds(0.5f);
             speedText.enabled = true;
