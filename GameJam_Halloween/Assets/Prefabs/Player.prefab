@@ -496,6 +496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialText: {fileID: 0}
+  quitButton: {fileID: 0}
 --- !u!114 &2444314545444910484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,6 +535,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655699920524018577}
     m_Modifications:
+    - target: {fileID: 2340843148946726565, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_Direction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340843149872100460, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340843149872100460, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340843149872100460, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -311.44
+      objectReference: {fileID: 0}
     - target: {fileID: 2340843149981972655, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -541,6 +558,10 @@ PrefabInstance:
     - target: {fileID: 2340843149981972655, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340843149981972655, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.02178955
       objectReference: {fileID: 0}
     - target: {fileID: 2904801638582424402, guid: 57adc167bb0afde40a5291e59cf7cf45, type: 3}
       propertyPath: m_RootOrder
