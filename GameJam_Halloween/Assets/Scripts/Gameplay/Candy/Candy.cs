@@ -7,11 +7,14 @@ public class Candy : MonoBehaviour
     [Range(0, 5)] [SerializeField] int speedPoints = 1;
 
     Player_Score player;
+    Ghosts_Random random;
+    public GameObject candy;
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<Player_Score>();
+        random = FindObjectOfType<Ghosts_Random>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -21,6 +24,7 @@ public class Candy : MonoBehaviour
             if (player.currentSpeedPoints < 5)
             {
                 player.TakeSpeedPoints(speedPoints);
+                random.SpawnCandy(candy, 1);
                 Destroy(gameObject);
             }
         }

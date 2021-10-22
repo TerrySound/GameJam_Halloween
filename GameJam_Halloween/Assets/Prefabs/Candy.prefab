@@ -109,4 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6adbcac954472649bcd3b7291555378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePoints: 1
+  speedPoints: 1
+  random: {fileID: 0}
+  candy: {fileID: 3822491320513103703}

@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!65 &2080168771
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!1 &400571425
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!1 &620896507
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!65 &829447488465258875
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!65 &660984694
@@ -1447,7 +1447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!65 &803711404
@@ -1475,7 +1475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!1 &6031226027374199940
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!65 &1281643030
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!65 &3790631563545173579
@@ -1623,7 +1623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fd3cee02b2b14b88583c367a2181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fearPointsInflict: 10
+  fearPointsInflict: 5
   player: {fileID: 0}
   ai: {fileID: 0}
 --- !u!1001 &4970688

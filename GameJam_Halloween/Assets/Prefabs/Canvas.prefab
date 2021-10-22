@@ -308,7 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 5948401887817388908}
   textDisplayEnd: {fileID: 1780326932732328766}
-  secondLeft: 10
+  secondLeft: 120
   takingAway: 0
 --- !u!1 &7985494814197470488
 GameObject:

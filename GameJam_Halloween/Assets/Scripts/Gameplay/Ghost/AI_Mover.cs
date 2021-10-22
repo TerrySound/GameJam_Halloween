@@ -12,6 +12,11 @@ public class AI_Mover : MonoBehaviour
     public bool chasePlayer;
     private GameObject playerTransform;
 
+    public float Xd = 18.82064f;
+    public float Xg = -10.4746f;
+    public float Yb = -13.4922f;
+    public float Yh = 9.566713f;
+
     //public Transform moveSpot;
     //public GameObject quad;
 
@@ -21,7 +26,7 @@ public class AI_Mover : MonoBehaviour
     {
         waitTime = startWaitTime;
 
-        target = new Vector2(Random.Range(-10, 18.4f), Random.Range(-11.95f, 9f));
+        target = new Vector2(Random.Range(Xg, Xd), Random.Range(Yb, Yh));
         //AdjustScreen();
     }
 
@@ -45,7 +50,7 @@ public class AI_Mover : MonoBehaviour
         {
             if (waitTime <= 0)
             {
-                target = new Vector2(Random.Range(-10f, 18.4f), Random.Range(-11.95f, 9f));
+                target = new Vector2(Random.Range(Xg, Xd), Random.Range(Yb, Yh));
             }
         }
 

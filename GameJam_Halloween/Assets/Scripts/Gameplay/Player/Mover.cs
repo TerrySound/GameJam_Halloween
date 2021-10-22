@@ -5,8 +5,8 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     // Variables of moving
-    [SerializeField] float xValue = 0f;
-    [SerializeField] float yValue = 0f;
+    [SerializeField] float xValue = 4.267f;
+    [SerializeField] float yValue = -13f;
     float zValue = 0f;
     [SerializeField] public float speedCoefficient = 1f;
     public Animator animator;
