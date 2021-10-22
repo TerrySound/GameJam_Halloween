@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ghosts_Random : MonoBehaviour
 {
     [Range(0, 50)] [SerializeField] private int numberToSpawnGhosts;
+    [Range(0, 50)] [SerializeField] private int numberToSpawnGhostsChase;
     [Range(0, 50)] [SerializeField] private int numberToSpawnCandy;
     [SerializeField] private List<GameObject> spawnPool;
     [SerializeField] private GameObject quad;
@@ -37,6 +38,18 @@ public class Ghosts_Random : MonoBehaviour
         for (int i = 0; i < numberToSpawnCandy; i++)
         {
             toSpawn = spawnPool[1];
+
+            screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
+            screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
+            pos = new Vector3(screenX, screenY, 0.25f);
+
+            Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+
+        }
+
+        for (int i = 0; i < numberToSpawnGhostsChase; i++)
+        {
+            toSpawn = spawnPool[2];
 
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);

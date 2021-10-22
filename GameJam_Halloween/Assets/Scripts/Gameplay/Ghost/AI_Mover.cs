@@ -9,6 +9,8 @@ public class AI_Mover : MonoBehaviour
     public float startWaitTime;
     private float screenX, screenY;
     private Vector2 target;
+    public bool chasePlayer;
+    private GameObject playerTransform;
 
     //public Transform moveSpot;
     //public GameObject quad;
@@ -26,8 +28,18 @@ public class AI_Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
 
-        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        if (chasePlayer == true)
+        {
+            playerTransform = GameObject.FindGameObjectWithTag("Player");
+            transform.position = Vector2.MoveTowards(transform.position, playerTransform.transform.position, speed * Time.deltaTime);
+        }
+
+        else
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        }
 
         if (Vector2.Distance(transform.position, target) < 0.2f)
         {
@@ -35,11 +47,11 @@ public class AI_Mover : MonoBehaviour
             {
                 target = new Vector2(Random.Range(-10f, 18.4f), Random.Range(-11.95f, 9f));
             }
+        }
 
-            else
-            {
-                waitTime -= Time.deltaTime;
-            }
+        else
+        {
+            waitTime -= Time.deltaTime;
         }
     }
 }              

@@ -1196,11 +1196,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0f24e2b2d489b4f85435dcbf945e54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberToSpawnGhosts: 25
+  numberToSpawnGhosts: 20
+  numberToSpawnGhostsChase: 1
   numberToSpawnCandy: 25
   spawnPool:
   - {fileID: 2244890566844134883, guid: b3ba9b6ef26e20a4b98754e8ff2e66e5, type: 3}
   - {fileID: 3822491320513103703, guid: 4ea9d1d6712b3ee4fbed6751d50e6b4a, type: 3}
+  - {fileID: 2244890566844134883, guid: 41efa203ce8dd1d4e836fe6ba5efadaa, type: 3}
   quad: {fileID: 168040900}
 --- !u!1 &1901851717
 GameObject:
