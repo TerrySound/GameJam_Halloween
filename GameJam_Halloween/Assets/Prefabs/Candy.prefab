@@ -110,6 +110,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scorePoints: 1
-  numberToSpawn: 10
-  spawnPool: []
-  quad: {fileID: 0}

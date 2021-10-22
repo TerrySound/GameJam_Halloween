@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Candy : MonoBehaviour
 {
-    [Range(0, 20)] [SerializeField] int scorePoints = 1;
+    [Range(0, 5)] [SerializeField] int speedPoints = 1;
 
     Player_Score player;
 
@@ -18,8 +18,11 @@ public class Candy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player.ManagePoints(scorePoints);
-            Destroy(gameObject);
+            if (player.currentSpeedPoints < 5)
+            {
+                player.TakeSpeedPoints(speedPoints);
+                Destroy(gameObject);
+            }
         }
     }
 }
