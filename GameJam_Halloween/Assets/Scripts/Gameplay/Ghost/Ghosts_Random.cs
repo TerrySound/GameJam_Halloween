@@ -11,13 +11,12 @@ public class Ghosts_Random : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DestroyObjects();
         SpawnObjects();
     }
 
     void SpawnObjects()
     {
-        DestroyObjects();
-        int Item;
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
@@ -26,8 +25,7 @@ public class Ghosts_Random : MonoBehaviour
 
         for (int i = 0; i < numberToSpawnGhosts; i++)
         {
-            Item = 0;
-            toSpawn = spawnPool[Item];
+            toSpawn = spawnPool[0];
 
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
@@ -38,8 +36,7 @@ public class Ghosts_Random : MonoBehaviour
         }
         for (int i = 0; i < numberToSpawnCandy; i++)
         {
-            Item = 1;
-            toSpawn = spawnPool[Item];
+            toSpawn = spawnPool[1];
 
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);

@@ -24,10 +24,6 @@ public class PlayerFear : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    void Update()
-    {
-        
-    }
     public void TakeFear(int damage)
     {
         StartCoroutine(ColorHit());
