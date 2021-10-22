@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,19 +23,17 @@ public class PlayerFear : MonoBehaviour
         textDisplayLose.SetActive(false);
         deathbButton.SetActive(false);
         Time.timeScale = 1;
+        VerifyFear();
     }
 
-    void Update()
-    {
-        
-    }
     public void TakeFear(int damage)
     {
         StartCoroutine(ColorHit());
         currentFear += damage;
-        fearBar.SetFear(currentFear);
         VerifyFear();
+        fearBar.SetFear(currentFear);
     }
+
     public void VerifyFear()
     {
         if (currentFear < 0)

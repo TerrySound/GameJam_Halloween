@@ -6,58 +6,68 @@ using TMPro;
 public class Player_Score : MonoBehaviour
 {
     [SerializeField] int points = 0;
-    [SerializeField] TextMeshProUGUI text;
-    int indice = 0;
-    [SerializeField] TextMeshProUGUI speedText;
-    //private int i = 0;
+    public int maxSpeedPoints = 5;
+    public int minSpeedPoints = 0;
+    public int currentSpeedPoints = 0;
 
+
+    public Speed_Bar speedbar;
+    public GameObject space;
     Mover move;
 
     // Start is called before the first frame update
     void Start()
     {
         move = FindObjectOfType<Mover>();
-        text.text = points.ToString();
-        speedText.enabled = false;
+        space.SetActive(false);
+        currentSpeedPoints = minSpeedPoints;
+        VerifySpeed();
+        speedbar.SetMinSpeedScore(minSpeedPoints);
+    }
+    private void Update()
+    {
+        if (currentSpeedPoints == 5)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                SpeedIncrease();
+            }
+        }
+    }
+    public void SpeedIncrease()
+    {
+        space.SetActive(false);
+        speedbar.SetSpeedScore(0);
+        Debug.Log("avt coroute");
+        StartCoroutine(SpeedTime());
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TakeSpeedPoints(int speed)
     {
-        text.text = points.ToString();
+        currentSpeedPoints += speed;
+        VerifySpeed();
+        speedbar.SetSpeedScore(currentSpeedPoints);
     }
 
-    public void ManagePoints(int a)
+    public void VerifySpeed()
     {
-        points += a;
-        if (points >= 5 && indice <= 0)
+        if (currentSpeedPoints < 0)
         {
-            indice += 1;
-            move.speedCoefficient += 1;
-            StartCoroutine(SpeedIncrease());
+            currentSpeedPoints = 0;
         }
-        if (points >= 10 && indice <= 1)
+        if (currentSpeedPoints >= 5)
         {
-            indice += 1;
-            move.speedCoefficient += 1;
-            StartCoroutine(SpeedIncrease());
-        }
-        if (points >= 15 && indice <= 2)
-        {
-            indice += 1;
-            move.speedCoefficient += 1;
-            speedText.text = "Speed Increased to the Maximum !";
-            StartCoroutine(SpeedIncrease());
+            currentSpeedPoints = 5;
+            space.SetActive(true);
         }
     }
-    IEnumerator SpeedIncrease()
+
+    IEnumerator SpeedTime()
     {
-        for(int i = 0; i < 5; i++)
-        {
-            yield return new WaitForSeconds(0.5f);
-            speedText.enabled = true;
-            yield return new WaitForSeconds(0.5f);
-            speedText.enabled = false;
-        }
+        move.speedCoefficient += 2;
+        yield return new WaitForSeconds(5f);
+        move.speedCoefficient -= 2;
+        currentSpeedPoints = 0;
+        Debug.Log("apr coroute");
     }
 }
