@@ -4,39 +4,52 @@ using UnityEngine;
 
 public class Ghosts_Random : MonoBehaviour
 {
-    public int numberToSpawn;
-    public List<GameObject> spawnPool;
-    public GameObject quad;
+    [Range(0, 50)] [SerializeField] private int numberToSpawnGhosts;
+    [Range(0, 50)] [SerializeField] private int numberToSpawnCandy;
+    [SerializeField] private List<GameObject> spawnPool;
+    [SerializeField] private GameObject quad;
     // Start is called before the first frame update
     void Start()
     {
-        spawnObjects();
+        SpawnObjects();
     }
 
-    public void spawnObjects()
+    void SpawnObjects()
     {
-        destroyObjects();
-        int randomItem = 0;
+        DestroyObjects();
+        int Item;
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
         float screenX, screenY;
         Vector2 pos;
 
-        for (int i = 0; i < numberToSpawn; i++)
+        for (int i = 0; i < numberToSpawnGhosts; i++)
         {
-            randomItem = Random.Range(0, spawnPool.Count);
-            toSpawn = spawnPool[randomItem];
+            Item = 0;
+            toSpawn = spawnPool[Item];
 
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
-            pos = new Vector2(screenX, screenY);
+            pos = new Vector3(screenX, screenY,-0.2f);
+
+            Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+
+        }
+        for (int i = 0; i < numberToSpawnCandy; i++)
+        {
+            Item = 1;
+            toSpawn = spawnPool[Item];
+
+            screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
+            screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
+            pos = new Vector3(screenX, screenY, 0.25f);
 
             Instantiate(toSpawn, pos, toSpawn.transform.rotation);
 
         }
     }
-    private void destroyObjects()
+    private void DestroyObjects()
     {
         foreach (GameObject o in GameObject.FindGameObjectsWithTag("Spawnable"))
         {

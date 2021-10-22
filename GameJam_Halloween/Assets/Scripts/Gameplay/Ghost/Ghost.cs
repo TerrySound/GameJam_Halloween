@@ -5,9 +5,10 @@ using UnityEngine;
 public class Ghost : MonoBehaviour
 {
     // Variables
-    [SerializeField] public int fearPointsInflict = 10;
+    [Range(0, 100)] [SerializeField] public int fearPointsInflict = 10;
 
     public PlayerFear player;
+    public AI_Mover ai;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class Ghost : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void OnTriggerEnter(Collider other)

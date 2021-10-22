@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ghost
   - Spawnable
+  - Wall
   layers:
   - Default
   - TransparentFX

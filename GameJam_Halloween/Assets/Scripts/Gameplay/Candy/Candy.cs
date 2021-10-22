@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Candy : MonoBehaviour
 {
-    [SerializeField] int scorePoints = 1;
+    [Range(0, 20)] [SerializeField] int scorePoints = 1;
 
     Player_Score player;
 
