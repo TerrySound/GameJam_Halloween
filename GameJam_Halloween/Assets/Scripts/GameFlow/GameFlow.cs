@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
+
 
 public class GameFlow : MonoBehaviour
 {
     public GameObject tutorialText;
     public GameObject quitButton;
+    public GameObject ui;
+    public PlayableDirector startCutscene;
 
     public void PlayGame()
     {
@@ -29,5 +33,12 @@ public class GameFlow : MonoBehaviour
     {
         tutorialText.SetActive(false);
         quitButton.SetActive(true);
+    }
+
+    public void PlayStartCutscene()
+    {
+        tutorialText.SetActive(false);
+        ui.SetActive(false);
+        startCutscene.Play();
     }
 }
