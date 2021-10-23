@@ -12,6 +12,16 @@ public class GameFlow : MonoBehaviour
     public GameObject ui;
     public PlayableDirector startCutscene;
 
+    private void Awake()
+    {
+        startCutscene.stopped += StartCutscene_Stopped;
+    }
+
+    private void StartCutscene_Stopped(PlayableDirector obj) 
+    {
+        PlayGame();
+    }
+
     public void PlayGame()
     {
         SceneManager.LoadScene("MainScene");
@@ -41,4 +51,6 @@ public class GameFlow : MonoBehaviour
         ui.SetActive(false);
         startCutscene.Play();
     }
+
+
 }

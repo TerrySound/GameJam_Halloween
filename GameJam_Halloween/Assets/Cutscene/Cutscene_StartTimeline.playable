@@ -1368,11 +1368,11 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: -300252618774817954}
-  m_FixedDuration: 0
+  m_FixedDuration: 11.066666666666666
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
-  m_DurationMode: 0
+  m_DurationMode: 1
   m_MarkerTrack: {fileID: -2965914877563237698}
 --- !u!114 &83577299549508728
 MonoBehaviour:
