@@ -13,6 +13,8 @@ public class Player_Score : MonoBehaviour
     public Speed_Bar speedbar;
     public GameObject space;
     Mover move;
+    public Animator characterAnimator;
+    public float animationSpeedValue;
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +34,17 @@ public class Player_Score : MonoBehaviour
                 SpeedIncrease();
             }
         }
+
+        if (currentSpeedPoints == 0)
+        {
+            characterAnimator.speed = 1;
+        }
     }
     public void SpeedIncrease()
     {
         space.SetActive(false);
         speedbar.SetSpeedScore(0);
+        characterAnimator.speed = animationSpeedValue;
         StartCoroutine(SpeedTime());
     }
 
