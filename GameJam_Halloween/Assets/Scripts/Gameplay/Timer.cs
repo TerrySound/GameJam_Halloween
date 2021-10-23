@@ -23,6 +23,11 @@ public class Timer : MonoBehaviour
         textDisplay.GetComponent<Text>().text = secondLeft.ToString();
         takingAway = false;
         indice += 1;
+
+        if (indice == 15)
+        {
+            random.SpawnGhost(ghostChase, 1);
+        }
         if (indice == 30)
         {
             random.SpawnGhost(ghost,10);
