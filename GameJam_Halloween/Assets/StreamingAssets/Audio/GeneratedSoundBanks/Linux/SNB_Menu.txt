@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1598298728	Music_Menu			\Default Work Unit\Menu\Music_Menu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	870714021	Music_Halloween_Menu	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Music\Music_Halloween_Menu_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Menu\Music_Halloween_Menu\Music_Halloween_Menu		6309
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	870714021	Music_Halloween_Menu	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Music\Music_Halloween_Menu_073B4D0C.wem	870714021.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Menu\Music_Halloween_Menu\Music_Halloween_Menu	
+

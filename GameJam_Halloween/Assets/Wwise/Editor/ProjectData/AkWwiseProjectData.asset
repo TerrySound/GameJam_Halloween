@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 01bd8c6c20396247a2a735c2f1671fef
     GuidInternal: 
-    m_lastTime: -8585671213477921988
+    m_lastTime: -8585666214764603576
     List:
+    - name: SNB_Menu
+      guid: 2a8ca2bb6820954c87331b6197a7fe0c
+      id: 761484738
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 01bd8c6c20396247a2a735c2f1671fef
+      - ElementName: SNB_Menu
+        ObjectType: 7
+        guid: 2a8ca2bb6820954c87331b6197a7fe0c
+      Path: SoundBanks\Default Work Unit\SNB_Menu
     - name: SNB_Test
       guid: d9118f64aade7347bbb21ba8bdf7f815
       id: 2162288179
@@ -359,8 +373,45 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: abc43295a61faf499127ded73bc8be86
     GuidInternal: 
-    m_lastTime: -8585671213667383400
+    m_lastTime: -8585666214779077167
     List:
+    - name: Menu
+      guid: c0ac09f7c6991b4680e3aeb268673a7b
+      id: 2607556080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      Path: Events\Default Work Unit\Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Menu
+      guid: e9c7ef4f7a3db248b84ca51e86ed2086
+      id: 1598298728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Music_Menu
+        ObjectType: 3
+        guid: e9c7ef4f7a3db248b84ca51e86ed2086
+      Path: Events\Default Work Unit\Menu\Music_Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Test_Music
       guid: 7f03b3640610294fa9e231a6eaeaf32d
       id: 379521629

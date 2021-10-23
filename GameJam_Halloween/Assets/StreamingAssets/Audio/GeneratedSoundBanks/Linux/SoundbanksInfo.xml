@@ -8,9 +8,36 @@
 		<ExternalSourcesOutputRoot>C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\GeneratedSoundBanks\Linux</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="870714021" Language="SFX">
+			<ShortName>Music\Music_Halloween_Menu.wav</ShortName>
+			<Path>SFX\Music\Music_Halloween_Menu_073B4D0C.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="761484738" Language="SFX" Hash="881967458">
+			<ObjectPath>\SoundBanks\Default Work Unit\SNB_Menu</ObjectPath>
+			<ShortName>SNB_Menu</ShortName>
+			<Path>SNB_Menu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1598298728" Name="Music_Menu" ObjectPath="\Events\Default Work Unit\Menu\Music_Menu" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="870714021" Language="SFX">
+							<ShortName>Music\Music_Halloween_Menu.wav</ShortName>
+							<Path>SFX\Music\Music_Halloween_Menu_073B4D0C.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="870714021" Language="SFX">
+							<ShortName>Music\Music_Halloween_Menu.wav</ShortName>
+							<Path>SFX\Music\Music_Halloween_Menu_073B4D0C.wem</Path>
+							<PrefetchSize>6309</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="1594150530">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
