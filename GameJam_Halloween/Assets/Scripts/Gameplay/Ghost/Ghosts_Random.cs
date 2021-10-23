@@ -72,7 +72,7 @@ public class Ghosts_Random : MonoBehaviour
         }
     }
 
-    public void SpawnCandy(GameObject toSpawn, int numberToSpawn)
+    public void SpawnCandyEtc(GameObject toSpawn, int numberToSpawn, float z)
     {
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
@@ -84,7 +84,7 @@ public class Ghosts_Random : MonoBehaviour
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
 
-            pos = new Vector3(screenX, screenY, -0.2f);
+            pos = new Vector3(screenX, screenY, z);
 
             Instantiate(toSpawn, pos, toSpawn.transform.rotation);
 

@@ -24,7 +24,7 @@ public class Candy : MonoBehaviour
             if (player.currentSpeedPoints < 5)
             {
                 player.TakeSpeedPoints(speedPoints);
-                random.SpawnCandy(candy, 1);
+                random.SpawnCandyEtc(candy, 1, 0.2f);
                 Destroy(gameObject);
             }
         }

@@ -10,7 +10,6 @@ public class Player_Score : MonoBehaviour
     public int minSpeedPoints = 0;
     public int currentSpeedPoints = 0;
 
-
     public Speed_Bar speedbar;
     public GameObject space;
     Mover move;
@@ -38,7 +37,6 @@ public class Player_Score : MonoBehaviour
     {
         space.SetActive(false);
         speedbar.SetSpeedScore(0);
-        Debug.Log("avt coroute");
         StartCoroutine(SpeedTime());
     }
 
@@ -68,6 +66,5 @@ public class Player_Score : MonoBehaviour
         yield return new WaitForSeconds(5f);
         move.speedCoefficient -= 2;
         currentSpeedPoints = 0;
-        Debug.Log("apr coroute");
     }
 }

@@ -9,6 +9,7 @@ public class PlayerFear : MonoBehaviour
     public int minFear = 0;
     public int currentFear;
     public int iterationHitColor = 2;
+    public int iterationHealColor = 2;
 
     public Fear_gauge fearBar;
     public GameObject textDisplayLose;
@@ -54,6 +55,16 @@ public class PlayerFear : MonoBehaviour
         {
             yield return new WaitForSeconds(0.3f);
             sprite.color = new Color32(255, 0, 0, 255);
+            yield return new WaitForSeconds(0.3f);
+            sprite.color = new Color32(255, 255, 255, 255);
+        }
+    }
+    public IEnumerator ColorHeal()
+    {
+        for (int i = 0; i < iterationHealColor; i++)
+        {
+            yield return new WaitForSeconds(0.3f);
+            sprite.color = new Color32(0, 255, 0, 255);
             yield return new WaitForSeconds(0.3f);
             sprite.color = new Color32(255, 255, 255, 255);
         }

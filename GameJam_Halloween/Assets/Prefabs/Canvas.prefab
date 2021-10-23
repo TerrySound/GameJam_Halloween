@@ -310,6 +310,8 @@ MonoBehaviour:
   textDisplayEnd: {fileID: 1780326932732328766}
   secondLeft: 120
   takingAway: 0
+  ghost: {fileID: 0}
+  ghostChase: {fileID: 0}
 --- !u!1 &7985494814197470488
 GameObject:
   m_ObjectHideFlags: 0
