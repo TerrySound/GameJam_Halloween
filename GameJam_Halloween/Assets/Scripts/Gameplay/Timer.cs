@@ -35,17 +35,17 @@ public class Timer : MonoBehaviour
         }
         if (indice == 30)
         {
-            random.SpawnGhost(ghost,10);
+            random.SpawnGhost(ghost,7);
         }
         if (indice == 60)
         {
             random.SpawnGhost(ghostChase, 1);
-            random.SpawnGhost(ghost, 10);
+            random.SpawnGhost(ghost, 7);
         }
         if (indice == 90)
         {
             random.SpawnGhost(ghostChase, 1);
-            random.SpawnGhost(ghost, 10);
+            random.SpawnGhost(ghost, 7);
         }
     }
 
@@ -79,7 +79,7 @@ public class Timer : MonoBehaviour
                     Destroy(obj);
                 }
 
-                if (obj.transform.name == "GhostChase(Clone)")
+                if (obj.transform.name == "Ghost_Chase(Clone)")
                 {
                     Destroy(obj);
                 }
