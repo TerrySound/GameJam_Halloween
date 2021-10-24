@@ -801,7 +801,7 @@ PrefabInstance:
       objectReference: {fileID: 2244890566844134883, guid: 41efa203ce8dd1d4e836fe6ba5efadaa, type: 3}
     - target: {fileID: 4446266289475614606, guid: a7cb72f42d237c545ad9af39192fb4da, type: 3}
       propertyPath: secondLeft
-      value: 10
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 4446266289475614606, guid: a7cb72f42d237c545ad9af39192fb4da, type: 3}
       propertyPath: ColliderEnd
