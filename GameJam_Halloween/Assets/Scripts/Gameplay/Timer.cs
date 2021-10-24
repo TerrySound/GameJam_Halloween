@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Playables;
 
 public class Timer : MonoBehaviour
 {
     public GameObject textDisplay;
     public GameObject textDisplayEnd;
+    public GameObject ColliderEnd;
     public int secondLeft = 120;
     public bool takingAway = false;
     int indice = 0;
@@ -14,6 +16,9 @@ public class Timer : MonoBehaviour
     Ghosts_Random random;
     public GameObject ghost;
     public GameObject ghostChase;
+
+    public PlayableDirector winCutscene;
+    public bool bWin;
 
     IEnumerator TimerTake() 
     {
@@ -49,13 +54,14 @@ public class Timer : MonoBehaviour
     {
         random = FindObjectOfType<Ghosts_Random>();
         textDisplayEnd.SetActive(false);
+        ColliderEnd.SetActive(false);
         textDisplay.GetComponent<Text>().text = secondLeft.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (takingAway == false && secondLeft > 0) 
+        if (takingAway == false && secondLeft > 0)
         {
             StartCoroutine(TimerTake());
         }
@@ -63,6 +69,27 @@ public class Timer : MonoBehaviour
         if (takingAway == false && secondLeft <=0)
         {
             textDisplayEnd.SetActive(true);
+            ColliderEnd.SetActive(true);
+
+            Object[] allObjects = FindObjectsOfType(typeof(GameObject));
+            foreach (GameObject obj in allObjects)
+            {
+                if (obj.transform.name == "Ghost(Clone)")
+                {
+                    Destroy(obj);
+                }
+
+                if (obj.transform.name == "GhostChase(Clone)")
+                {
+                    Destroy(obj);
+                }
+            }
+
+            if (bWin == false)
+            {
+                winCutscene.Play();
+                bWin = true;
+            }
         }
     }
 }

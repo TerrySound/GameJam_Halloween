@@ -135,6 +135,10 @@ MonoBehaviour:
   speed: 3
   startWaitTime: 0
   chasePlayer: 0
+  Xd: 18.82064
+  Xg: -10.4746
+  Yb: -13.4922
+  Yh: 9.566713
 --- !u!65 &684059426172861620
 BoxCollider:
   m_ObjectHideFlags: 0
