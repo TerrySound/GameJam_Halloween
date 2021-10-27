@@ -20,7 +20,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="761484738" Language="SFX" Hash="3981933850">
+		<SoundBank Id="761484738" Language="SFX" Hash="2986281324">
 			<ObjectPath>\SoundBanks\Default Work Unit\SNB_Menu</ObjectPath>
 			<ShortName>SNB_Menu</ShortName>
 			<Path>SNB_Menu.bnk</Path>

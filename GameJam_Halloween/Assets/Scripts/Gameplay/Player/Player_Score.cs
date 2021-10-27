@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Player_Score : MonoBehaviour
 {
@@ -42,6 +43,11 @@ public class Player_Score : MonoBehaviour
         if (currentSpeedPoints == 0)
         {
             characterAnimator.speed = 1;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MenuScene");
         }
     }
     public void SpeedIncrease()
