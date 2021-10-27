@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID ARRIVAL = 13604068U;
         static const AkUniqueID CUTSCENE_INTRO = 3264197842U;
         static const AkUniqueID DEATH = 779278001U;
+        static const AkUniqueID DOORSOPEN = 2764958276U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID HEAL = 3448274447U;
         static const AkUniqueID HIT = 1116398592U;

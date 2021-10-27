@@ -373,7 +373,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: abc43295a61faf499127ded73bc8be86
     GuidInternal: 
-    m_lastTime: -8585662398620633945
+    m_lastTime: -8585662385082416439
     List:
     - name: Amb_Graveyard
       guid: 6031e457b278e64886bd0be3e6b6c7a5
@@ -412,9 +412,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8ae58117a378624385401713feefae5f
       Path: Events\Default Work Unit\Menu\Arrival
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 9.502271
+      minDuration: 9.502271
     - name: Cutscene_Intro
       guid: 845f4993886b554a8e133b51f99bb13c
       id: 3264197842
@@ -453,8 +453,28 @@ MonoBehaviour:
         guid: 5b53cfc66c2bb84ab8c4217888b2abb4
       Path: Events\Default Work Unit\Menu\Death
       maxAttenuation: 0
-      maxDuration: 5.911729
-      minDuration: 5.911729
+      maxDuration: 6.949521
+      minDuration: 6.949521
+    - name: DoorsOpen
+      guid: 550483c80fc9e54a89ee707c3df7b561
+      id: 2764958276
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: DoorsOpen
+        ObjectType: 3
+        guid: 550483c80fc9e54a89ee707c3df7b561
+      Path: Events\Default Work Unit\Menu\DoorsOpen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: 7c9442fd35bf1d49bf54633cb0f04ecc
       id: 2385628198
