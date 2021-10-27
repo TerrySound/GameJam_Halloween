@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_PLAY = 2382194672U;
         static const AkUniqueID UI_STARTGAME = 2467171692U;
+        static const AkUniqueID WIN = 979765101U;
     } // namespace EVENTS
 
     namespace BANKS

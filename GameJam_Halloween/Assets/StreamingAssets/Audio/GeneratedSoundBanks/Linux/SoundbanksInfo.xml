@@ -20,7 +20,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="761484738" Language="SFX" Hash="3225423266">
+		<SoundBank Id="761484738" Language="SFX" Hash="3981933850">
 			<ObjectPath>\SoundBanks\Default Work Unit\SNB_Menu</ObjectPath>
 			<ShortName>SNB_Menu</ShortName>
 			<Path>SNB_Menu.bnk</Path>
@@ -227,6 +227,14 @@
 						<File Id="729952117" Language="SFX">
 							<ShortName>UI_StartGame.wav</ShortName>
 							<Path>SFX\UI_StartGame_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Menu\Win" DurationType="OneShot" DurationMin="8.220104" DurationMax="8.220104">
+					<IncludedMemoryFiles>
+						<File Id="627373181" Language="SFX">
+							<ShortName>Win.wav</ShortName>
+							<Path>SFX\Win_755F56E2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

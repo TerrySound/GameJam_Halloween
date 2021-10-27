@@ -20,6 +20,7 @@ public class Timer : MonoBehaviour
     public PlayableDirector winCutscene;
     public bool bWin;
     public GameObject SpotEmitter;
+    public GameObject DoorGO;
 
     IEnumerator TimerTake() 
     {
@@ -63,6 +64,7 @@ public class Timer : MonoBehaviour
         textDisplay.GetComponent<Text>().text = secondLeft.ToString();
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -94,6 +96,7 @@ public class Timer : MonoBehaviour
             {
                 winCutscene.Play();
                 bWin = true;
+                AkSoundEngine.PostEvent("DoorsOpen", DoorGO);
             }
         }
     }

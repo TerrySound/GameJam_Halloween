@@ -373,7 +373,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: abc43295a61faf499127ded73bc8be86
     GuidInternal: 
-    m_lastTime: -8585662385082416439
+    m_lastTime: -8585662352185889124
     List:
     - name: Amb_Graveyard
       guid: 6031e457b278e64886bd0be3e6b6c7a5
@@ -472,9 +472,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 550483c80fc9e54a89ee707c3df7b561
       Path: Events\Default Work Unit\Menu\DoorsOpen
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 5.54675
+      minDuration: 5.54675
     - name: Footsteps
       guid: 7c9442fd35bf1d49bf54633cb0f04ecc
       id: 2385628198
@@ -692,6 +692,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 9.556875
       minDuration: 9.556875
+    - name: Win
+      guid: 2be9f979cdc9a44794e705b5ef29e240
+      id: 979765101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Win
+        ObjectType: 3
+        guid: 2be9f979cdc9a44794e705b5ef29e240
+      Path: Events\Default Work Unit\Menu\Win
+      maxAttenuation: 0
+      maxDuration: 8.220104
+      minDuration: 8.220104
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

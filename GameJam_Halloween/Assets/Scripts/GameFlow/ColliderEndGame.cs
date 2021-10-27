@@ -12,6 +12,7 @@ public class ColliderEndGame : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         EndGameCutscene.Play();
+        AkSoundEngine.PostEvent("Win", gameObject);
     }
 
     private void Awake()

@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	605894317	Amb_Graveyard			\Default Work Unit\Menu\Amb_Graveyard	
 	640949982	Speed			\Default Work Unit\Menu\Speed	
 	779278001	Death			\Default Work Unit\Menu\Death	
+	979765101	Win			\Default Work Unit\Menu\Win	
 	1116398592	Hit			\Default Work Unit\Menu\Hit	
 	1416251350	SFX_Gameplay_Candy_Pickup			\Default Work Unit\Menu\SFX_Gameplay_Candy_Pickup	
 	1598298728	Music_Menu			\Default Work Unit\Menu\Music_Menu	
@@ -39,6 +40,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	385614788	Child_Hit-005	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Child_Hit-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-005		11597
 	408180867	Cutscene_Intro	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Cutscene_Intro_3404CB1C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscene\Cutscene_Intro		699667
 	554815298	Child_Hit-003	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Child_Hit-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-003		8379
+	627373181	Win	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Win_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Win		398568
 	678799805	Hit_Impact-003	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Hit_Impact-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit\Hit_Impact-003		19524
 	712879589	Hit_Impact-002	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\Hit_Impact-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit\Hit_Impact-002		17329
 	729952117	UI_StartGame	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Mac\SFX\UI_StartGame_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_StartGame		428817
