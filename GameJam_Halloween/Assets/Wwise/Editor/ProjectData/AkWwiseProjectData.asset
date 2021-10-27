@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 01bd8c6c20396247a2a735c2f1671fef
     GuidInternal: 
-    m_lastTime: -8585666214764603576
+    m_lastTime: -8585662526727244498
     List:
     - name: SNB_Menu
       guid: 2a8ca2bb6820954c87331b6197a7fe0c
@@ -373,8 +373,148 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: abc43295a61faf499127ded73bc8be86
     GuidInternal: 
-    m_lastTime: -8585666214779077167
+    m_lastTime: -8585662398620633945
     List:
+    - name: Amb_Graveyard
+      guid: 6031e457b278e64886bd0be3e6b6c7a5
+      id: 605894317
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Amb_Graveyard
+        ObjectType: 3
+        guid: 6031e457b278e64886bd0be3e6b6c7a5
+      Path: Events\Default Work Unit\Menu\Amb_Graveyard
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Arrival
+      guid: 8ae58117a378624385401713feefae5f
+      id: 13604068
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Arrival
+        ObjectType: 3
+        guid: 8ae58117a378624385401713feefae5f
+      Path: Events\Default Work Unit\Menu\Arrival
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cutscene_Intro
+      guid: 845f4993886b554a8e133b51f99bb13c
+      id: 3264197842
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Cutscene_Intro
+        ObjectType: 3
+        guid: 845f4993886b554a8e133b51f99bb13c
+      Path: Events\Default Work Unit\Menu\Cutscene_Intro
+      maxAttenuation: 0
+      maxDuration: 13.988695
+      minDuration: 13.988695
+    - name: Death
+      guid: 5b53cfc66c2bb84ab8c4217888b2abb4
+      id: 779278001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Death
+        ObjectType: 3
+        guid: 5b53cfc66c2bb84ab8c4217888b2abb4
+      Path: Events\Default Work Unit\Menu\Death
+      maxAttenuation: 0
+      maxDuration: 5.911729
+      minDuration: 5.911729
+    - name: Footsteps
+      guid: 7c9442fd35bf1d49bf54633cb0f04ecc
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Footsteps
+        ObjectType: 3
+        guid: 7c9442fd35bf1d49bf54633cb0f04ecc
+      Path: Events\Default Work Unit\Menu\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.413445
+      minDuration: 0.225396
+    - name: Heal
+      guid: e5955ae4984eb947bf14695ee19ff7a2
+      id: 3448274447
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Heal
+        ObjectType: 3
+        guid: e5955ae4984eb947bf14695ee19ff7a2
+      Path: Events\Default Work Unit\Menu\Heal
+      maxAttenuation: 0
+      maxDuration: 2.220875
+      minDuration: 2.220875
+    - name: Hit
+      guid: 6bda73479fd8264ea5dcab17ad0abfe1
+      id: 1116398592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Hit
+        ObjectType: 3
+        guid: 6bda73479fd8264ea5dcab17ad0abfe1
+      Path: Events\Default Work Unit\Menu\Hit
+      maxAttenuation: 0
+      maxDuration: 1.870958
+      minDuration: 1.870958
     - name: Menu
       guid: c0ac09f7c6991b4680e3aeb268673a7b
       id: 2607556080
@@ -412,6 +552,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: SFX_Gameplay_Candy_Pickup
+      guid: 6ea6e89114af92439f6439fee2c3a23f
+      id: 1416251350
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: SFX_Gameplay_Candy_Pickup
+        ObjectType: 3
+        guid: 6ea6e89114af92439f6439fee2c3a23f
+      Path: Events\Default Work Unit\Menu\SFX_Gameplay_Candy_Pickup
+      maxAttenuation: 0
+      maxDuration: 0.497682
+      minDuration: 0.433258
+    - name: Speed
+      guid: 22674b32cdacb24091285fdef55d202e
+      id: 640949982
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: Speed
+        ObjectType: 3
+        guid: 22674b32cdacb24091285fdef55d202e
+      Path: Events\Default Work Unit\Menu\Speed
+      maxAttenuation: 0
+      maxDuration: 0.665479
+      minDuration: 0.665479
     - name: Test_Music
       guid: 7f03b3640610294fa9e231a6eaeaf32d
       id: 379521629
@@ -422,13 +602,76 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
       - ElementName: Test_Music
         ObjectType: 3
         guid: 7f03b3640610294fa9e231a6eaeaf32d
-      Path: Events\Default Work Unit\Test_Music
+      Path: Events\Default Work Unit\Menu\Test_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: UI_Back
+      guid: bc71f83005a58545905dce6b514a919b
+      id: 2024222415
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: UI_Back
+        ObjectType: 3
+        guid: bc71f83005a58545905dce6b514a919b
+      Path: Events\Default Work Unit\Menu\UI_Back
+      maxAttenuation: 0
+      maxDuration: 1.834104
+      minDuration: 1.834104
+    - name: UI_Play
+      guid: 6070ceafd3ce074c9c5d0f286a410648
+      id: 2382194672
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: UI_Play
+        ObjectType: 3
+        guid: 6070ceafd3ce074c9c5d0f286a410648
+      Path: Events\Default Work Unit\Menu\UI_Play
+      maxAttenuation: 0
+      maxDuration: 1.834104
+      minDuration: 1.834104
+    - name: UI_StartGame
+      guid: ddf582328aa38f409e1b46196506c2b0
+      id: 2467171692
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: abc43295a61faf499127ded73bc8be86
+      - ElementName: Menu
+        ObjectType: 4
+        guid: c0ac09f7c6991b4680e3aeb268673a7b
+      - ElementName: UI_StartGame
+        ObjectType: 3
+        guid: ddf582328aa38f409e1b46196506c2b0
+      Path: Events\Default Work Unit\Menu\UI_StartGame
+      maxAttenuation: 0
+      maxDuration: 9.556875
+      minDuration: 9.556875
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -486,7 +729,7 @@ MonoBehaviour:
     m_lastTime: -8585671239023072061
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000008f0000009000000093000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

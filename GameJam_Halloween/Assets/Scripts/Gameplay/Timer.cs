@@ -19,6 +19,7 @@ public class Timer : MonoBehaviour
 
     public PlayableDirector winCutscene;
     public bool bWin;
+    public GameObject SpotEmitter;
 
     IEnumerator TimerTake() 
     {
@@ -32,20 +33,24 @@ public class Timer : MonoBehaviour
         if (indice == 15)
         {
             random.SpawnGhost(ghostChase, 1);
+            AkSoundEngine.PostEvent("Arrival", SpotEmitter);
         }
         if (indice == 30)
         {
             random.SpawnGhost(ghost,7);
+            AkSoundEngine.PostEvent("Arrival", SpotEmitter);
         }
         if (indice == 60)
         {
             random.SpawnGhost(ghostChase, 1);
             random.SpawnGhost(ghost, 7);
+            AkSoundEngine.PostEvent("Arrival", SpotEmitter);
         }
         if (indice == 90)
         {
             random.SpawnGhost(ghostChase, 1);
             random.SpawnGhost(ghost, 7);
+            AkSoundEngine.PostEvent("Arrival", SpotEmitter);
         }
     }
 

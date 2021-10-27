@@ -1,9 +1,54 @@
 Event	ID	Name			Wwise Object Path	Notes
+	13604068	Arrival			\Default Work Unit\Menu\Arrival	
+	379521629	Test_Music			\Default Work Unit\Menu\Test_Music	
+	605894317	Amb_Graveyard			\Default Work Unit\Menu\Amb_Graveyard	
+	640949982	Speed			\Default Work Unit\Menu\Speed	
+	779278001	Death			\Default Work Unit\Menu\Death	
+	1116398592	Hit			\Default Work Unit\Menu\Hit	
+	1416251350	SFX_Gameplay_Candy_Pickup			\Default Work Unit\Menu\SFX_Gameplay_Candy_Pickup	
 	1598298728	Music_Menu			\Default Work Unit\Menu\Music_Menu	
+	2024222415	UI_Back			\Default Work Unit\Menu\UI_Back	
+	2382194672	UI_Play			\Default Work Unit\Menu\UI_Play	
+	2385628198	Footsteps			\Default Work Unit\Menu\Footsteps	
+	2467171692	UI_StartGame			\Default Work Unit\Menu\UI_StartGame	
+	3264197842	Cutscene_Intro			\Default Work Unit\Menu\Cutscene_Intro	
+	3448274447	Heal			\Default Work Unit\Menu\Heal	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20911482	AMB_Graveyard_Crow-001	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_Crow-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_Crow\AMB_Graveyard_Crow-001		216592
+	58900175	UI_Play	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\UI_Play_84FD4084.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Play		86580
+	65842785	Foley_Footsteps-002	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Foley_Footsteps-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Footsteps\Foley_Footsteps-002		10538
+	80300690	Child_Hit-004	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Child_Hit-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-004		10530
+	121445146	Foley_Footsteps-003	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Foley_Footsteps-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Footsteps\Foley_Footsteps-003		11431
+	123416699	Foley_Footsteps-004	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Foley_Footsteps-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Footsteps\Foley_Footsteps-004		11413
+	150825393	Speed	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Speed_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Speed		34255
+	161509977	Foley_Footsteps-005	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Foley_Footsteps-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Footsteps\Foley_Footsteps-005		8462
+	170653141	AMB_Graveyard_Crow-004	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_Crow-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_Crow\AMB_Graveyard_Crow-004		220347
+	177916264	Arrival	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Arrival_78E168E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Arrival		454181
+	207771767	Hit_Impact-001	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Hit_Impact-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit\Hit_Impact-001		24518
+	248174393	Child_Hit-001	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Child_Hit-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-001		10881
+	255055757	Hit_HearthBeat	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Hit_HearthBeat_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit_HearthBeat		70226
+	271436289	Foley_Footsteps-001	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Foley_Footsteps-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Footsteps\Foley_Footsteps-001		13110
+	300150933	SFX_Gameplay_Candy_Pickup	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\SFX_Gameplay_Candy_Pickup_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Gameplay_Candy_Pickup		29704
+	313435073	Test_Music	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Test\Halloween Theme Song - John Carpenter_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Test_Music		8647904
+	315815370	AMB_Graveyard_Crow-006	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_Crow-006_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_Crow\AMB_Graveyard_Crow-006		229056
+	336211608	AMB_Graveyard_Crow-003	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_Crow-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_Crow\AMB_Graveyard_Crow-003		176217
+	339866287	AMB_Graveyard_Crow-002	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_Crow-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_Crow\AMB_Graveyard_Crow-002		283876
+	385614788	Child_Hit-005	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Child_Hit-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-005		11597
+	408180867	Cutscene_Intro	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Cutscene_Intro_3404CB1C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscene\Cutscene_Intro		699667
+	554815298	Child_Hit-003	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Child_Hit-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-003		8379
+	678799805	Hit_Impact-003	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Hit_Impact-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit\Hit_Impact-003		19524
+	712879589	Hit_Impact-002	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Hit_Impact-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit\Hit_Impact-002		17329
+	729952117	UI_StartGame	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\UI_StartGame_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_StartGame		428817
+	755020452	UI_Back	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\UI_Back_E5F36DF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Back		80953
+	813381351	Child_Hit-002	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Child_Hit-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Barks\Child_Hit-002		11170
+	834391897	Death	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Death_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death		341513
 	870714021	Music_Halloween_Menu	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Music\Music_Halloween_Menu_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Menu\Music_Halloween_Menu\Music_Halloween_Menu		6309
+	942413322	Heal	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Heal_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Heal		114369
+	1050938167	Hit_Impact-004	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Hit_Impact-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hit\Hit\Hit_Impact-004		24067
+	1053837163	AMB_Graveyard_Crow-005	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_Crow-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_Crow\AMB_Graveyard_Crow-005		222761
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	870714021	Music_Halloween_Menu	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\Music\Music_Halloween_Menu_073B4D0C.wem	870714021.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Menu\Music_Halloween_Menu\Music_Halloween_Menu	
+	1058103956	Amb_Graveyard_LP	C:\Users\terry\Documents\GameJam_Halloween_Wwise\Wwise_GameJam_Halloween\.cache\Linux\SFX\AMB_Graveyard_9225B69E.wem	1058103956.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Amb_Graveyard\Amb_Graveyard_LP	
 

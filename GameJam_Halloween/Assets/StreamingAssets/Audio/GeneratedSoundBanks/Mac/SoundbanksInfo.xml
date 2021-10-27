@@ -13,14 +13,152 @@
 			<ShortName>Music\Music_Halloween_Menu.wav</ShortName>
 			<Path>SFX\Music\Music_Halloween_Menu_073B4D0C.wem</Path>
 		</File>
+		<File Id="1058103956" Language="SFX">
+			<ShortName>AMB_Graveyard.wav</ShortName>
+			<Path>SFX\AMB_Graveyard_9225B69E.wem</Path>
+		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="761484738" Language="SFX" Hash="4139947336">
+		<SoundBank Id="761484738" Language="SFX" Hash="4012932335">
 			<ObjectPath>\SoundBanks\Default Work Unit\SNB_Menu</ObjectPath>
 			<ShortName>SNB_Menu</ShortName>
 			<Path>SNB_Menu.bnk</Path>
 			<IncludedEvents>
+				<Event Id="605894317" Name="Amb_Graveyard" ObjectPath="\Events\Default Work Unit\Menu\Amb_Graveyard" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="1058103956" Language="SFX">
+							<ShortName>AMB_Graveyard.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_9225B69E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="20911482" Language="SFX">
+							<ShortName>AMB_Graveyard_Crow-001.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_Crow-001_755F56E2.wem</Path>
+						</File>
+						<File Id="170653141" Language="SFX">
+							<ShortName>AMB_Graveyard_Crow-004.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_Crow-004_755F56E2.wem</Path>
+						</File>
+						<File Id="315815370" Language="SFX">
+							<ShortName>AMB_Graveyard_Crow-006.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_Crow-006_755F56E2.wem</Path>
+						</File>
+						<File Id="336211608" Language="SFX">
+							<ShortName>AMB_Graveyard_Crow-003.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_Crow-003_755F56E2.wem</Path>
+						</File>
+						<File Id="339866287" Language="SFX">
+							<ShortName>AMB_Graveyard_Crow-002.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_Crow-002_755F56E2.wem</Path>
+						</File>
+						<File Id="1053837163" Language="SFX">
+							<ShortName>AMB_Graveyard_Crow-005.wav</ShortName>
+							<Path>SFX\AMB_Graveyard_Crow-005_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="13604068" Name="Arrival" ObjectPath="\Events\Default Work Unit\Menu\Arrival" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="9.502271" DurationMax="9.502271">
+					<IncludedMemoryFiles>
+						<File Id="177916264" Language="SFX">
+							<ShortName>Arrival.wav</ShortName>
+							<Path>SFX\Arrival_78E168E5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3264197842" Name="Cutscene_Intro" ObjectPath="\Events\Default Work Unit\Menu\Cutscene_Intro" DurationType="OneShot" DurationMin="13.988695" DurationMax="13.988695">
+					<IncludedMemoryFiles>
+						<File Id="408180867" Language="SFX">
+							<ShortName>Cutscene_Intro.wav</ShortName>
+							<Path>SFX\Cutscene_Intro_3404CB1C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Menu\Death" DurationType="OneShot" DurationMin="6.949521" DurationMax="6.949521">
+					<IncludedMemoryFiles>
+						<File Id="834391897" Language="SFX">
+							<ShortName>Death.wav</ShortName>
+							<Path>SFX\Death_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Menu\Footsteps" DurationType="OneShot" DurationMin="0.225396" DurationMax="0.413445">
+					<IncludedMemoryFiles>
+						<File Id="65842785" Language="SFX">
+							<ShortName>Foley_Footsteps-002.wav</ShortName>
+							<Path>SFX\Foley_Footsteps-002_755F56E2.wem</Path>
+						</File>
+						<File Id="121445146" Language="SFX">
+							<ShortName>Foley_Footsteps-003.wav</ShortName>
+							<Path>SFX\Foley_Footsteps-003_755F56E2.wem</Path>
+						</File>
+						<File Id="123416699" Language="SFX">
+							<ShortName>Foley_Footsteps-004.wav</ShortName>
+							<Path>SFX\Foley_Footsteps-004_755F56E2.wem</Path>
+						</File>
+						<File Id="161509977" Language="SFX">
+							<ShortName>Foley_Footsteps-005.wav</ShortName>
+							<Path>SFX\Foley_Footsteps-005_755F56E2.wem</Path>
+						</File>
+						<File Id="271436289" Language="SFX">
+							<ShortName>Foley_Footsteps-001.wav</ShortName>
+							<Path>SFX\Foley_Footsteps-001_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3448274447" Name="Heal" ObjectPath="\Events\Default Work Unit\Menu\Heal" DurationType="OneShot" DurationMin="2.220875" DurationMax="2.220875">
+					<IncludedMemoryFiles>
+						<File Id="942413322" Language="SFX">
+							<ShortName>Heal.wav</ShortName>
+							<Path>SFX\Heal_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1116398592" Name="Hit" ObjectPath="\Events\Default Work Unit\Menu\Hit" DurationType="OneShot" DurationMin="1.870958" DurationMax="1.870958">
+					<IncludedMemoryFiles>
+						<File Id="80300690" Language="SFX">
+							<ShortName>Child_Hit-004.wav</ShortName>
+							<Path>SFX\Child_Hit-004_755F56E2.wem</Path>
+						</File>
+						<File Id="207771767" Language="SFX">
+							<ShortName>Hit_Impact-001.wav</ShortName>
+							<Path>SFX\Hit_Impact-001_755F56E2.wem</Path>
+						</File>
+						<File Id="248174393" Language="SFX">
+							<ShortName>Child_Hit-001.wav</ShortName>
+							<Path>SFX\Child_Hit-001_755F56E2.wem</Path>
+						</File>
+						<File Id="255055757" Language="SFX">
+							<ShortName>Hit_HearthBeat.wav</ShortName>
+							<Path>SFX\Hit_HearthBeat_755F56E2.wem</Path>
+						</File>
+						<File Id="385614788" Language="SFX">
+							<ShortName>Child_Hit-005.wav</ShortName>
+							<Path>SFX\Child_Hit-005_755F56E2.wem</Path>
+						</File>
+						<File Id="554815298" Language="SFX">
+							<ShortName>Child_Hit-003.wav</ShortName>
+							<Path>SFX\Child_Hit-003_755F56E2.wem</Path>
+						</File>
+						<File Id="678799805" Language="SFX">
+							<ShortName>Hit_Impact-003.wav</ShortName>
+							<Path>SFX\Hit_Impact-003_755F56E2.wem</Path>
+						</File>
+						<File Id="712879589" Language="SFX">
+							<ShortName>Hit_Impact-002.wav</ShortName>
+							<Path>SFX\Hit_Impact-002_755F56E2.wem</Path>
+						</File>
+						<File Id="813381351" Language="SFX">
+							<ShortName>Child_Hit-002.wav</ShortName>
+							<Path>SFX\Child_Hit-002_755F56E2.wem</Path>
+						</File>
+						<File Id="1050938167" Language="SFX">
+							<ShortName>Hit_Impact-004.wav</ShortName>
+							<Path>SFX\Hit_Impact-004_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1598298728" Name="Music_Menu" ObjectPath="\Events\Default Work Unit\Menu\Music_Menu" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="870714021" Language="SFX">
@@ -36,6 +174,54 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1416251350" Name="SFX_Gameplay_Candy_Pickup" ObjectPath="\Events\Default Work Unit\Menu\SFX_Gameplay_Candy_Pickup" DurationType="OneShot" DurationMin="0.433258" DurationMax="0.497682">
+					<IncludedMemoryFiles>
+						<File Id="300150933" Language="SFX">
+							<ShortName>SFX_Gameplay_Candy_Pickup.wav</ShortName>
+							<Path>SFX\SFX_Gameplay_Candy_Pickup_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="640949982" Name="Speed" ObjectPath="\Events\Default Work Unit\Menu\Speed" DurationType="OneShot" DurationMin="0.665479" DurationMax="0.665479">
+					<IncludedMemoryFiles>
+						<File Id="150825393" Language="SFX">
+							<ShortName>Speed.wav</ShortName>
+							<Path>SFX\Speed_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="379521629" Name="Test_Music" ObjectPath="\Events\Default Work Unit\Menu\Test_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="313435073" Language="SFX">
+							<ShortName>Test\Halloween Theme Song - John Carpenter.wav</ShortName>
+							<Path>SFX\Test\Halloween Theme Song - John Carpenter_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\Menu\UI_Back" DurationType="OneShot" DurationMin="1.834104" DurationMax="1.834104">
+					<IncludedMemoryFiles>
+						<File Id="755020452" Language="SFX">
+							<ShortName>UI_Back.wav</ShortName>
+							<Path>SFX\UI_Back_E5F36DF4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2382194672" Name="UI_Play" ObjectPath="\Events\Default Work Unit\Menu\UI_Play" DurationType="OneShot" DurationMin="1.834104" DurationMax="1.834104">
+					<IncludedMemoryFiles>
+						<File Id="58900175" Language="SFX">
+							<ShortName>UI_Play.wav</ShortName>
+							<Path>SFX\UI_Play_84FD4084.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2467171692" Name="UI_StartGame" ObjectPath="\Events\Default Work Unit\Menu\UI_StartGame" DurationType="OneShot" DurationMin="9.556875" DurationMax="9.556875">
+					<IncludedMemoryFiles>
+						<File Id="729952117" Language="SFX">
+							<ShortName>UI_StartGame.wav</ShortName>
+							<Path>SFX\UI_StartGame_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="3071028539">
@@ -48,7 +234,7 @@
 			<ShortName>SNB_Test</ShortName>
 			<Path>SNB_Test.bnk</Path>
 			<IncludedEvents>
-				<Event Id="379521629" Name="Test_Music" ObjectPath="\Events\Default Work Unit\Test_Music" DurationType="Infinite">
+				<Event Id="379521629" Name="Test_Music" ObjectPath="\Events\Default Work Unit\Menu\Test_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="313435073" Language="SFX">
 							<ShortName>Test\Halloween Theme Song - John Carpenter.wav</ShortName>

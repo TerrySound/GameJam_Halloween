@@ -25,6 +25,7 @@ public class Candy : MonoBehaviour
             {
                 player.TakeSpeedPoints(speedPoints);
                 random.SpawnCandyEtc(candy, 1, 0.2f);
+                AkSoundEngine.PostEvent("SFX_Gameplay_Candy_Pickup", gameObject);
                 Destroy(gameObject);
             }
         }

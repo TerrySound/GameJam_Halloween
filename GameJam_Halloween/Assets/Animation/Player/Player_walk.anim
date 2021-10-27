@@ -69,6 +69,20 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.33333334
+    functionName: FootstepsSFX
+    data: 
+    objectReferenceParameter: {fileID: 9100000, guid: e6a57fb95a594224db1356d1e5497097, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: FootstepsSFX
+    data: 
+    objectReferenceParameter: {fileID: 4852961370266431685, guid: a7cb72f42d237c545ad9af39192fb4da, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.6666667
     functionName: Move
     data: 

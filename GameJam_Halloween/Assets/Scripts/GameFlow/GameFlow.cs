@@ -36,6 +36,7 @@ public class GameFlow : MonoBehaviour
     {
         tutorialText.SetActive(true);
         quitButton.SetActive(false);
+        AkSoundEngine.PostEvent("UI_Play", gameObject);
 
     }
 
@@ -43,6 +44,7 @@ public class GameFlow : MonoBehaviour
     {
         tutorialText.SetActive(false);
         quitButton.SetActive(true);
+        AkSoundEngine.PostEvent("UI_Back", gameObject);
     }
 
     public void PlayStartCutscene()
@@ -52,5 +54,9 @@ public class GameFlow : MonoBehaviour
         startCutscene.Play();
     }
 
+    public void SFXStartGame()
+    {
+        AkSoundEngine.PostEvent("UI_StartGame", gameObject);
+    }
 
 }

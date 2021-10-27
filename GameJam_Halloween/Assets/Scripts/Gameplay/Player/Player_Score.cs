@@ -15,6 +15,7 @@ public class Player_Score : MonoBehaviour
     Mover move;
     public Animator characterAnimator;
     public float animationSpeedValue;
+    private bool bSpeedActive;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,10 @@ public class Player_Score : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                SpeedIncrease();
+                if (bSpeedActive)
+                {
+                    SpeedIncrease();
+                }
             }
         }
 
@@ -42,10 +46,12 @@ public class Player_Score : MonoBehaviour
     }
     public void SpeedIncrease()
     {
+        AkSoundEngine.PostEvent("Speed", gameObject);
         space.SetActive(false);
         speedbar.SetSpeedScore(0);
         characterAnimator.speed = animationSpeedValue;
         StartCoroutine(SpeedTime());
+        bSpeedActive = false;
     }
 
     public void TakeSpeedPoints(int speed)
@@ -65,6 +71,7 @@ public class Player_Score : MonoBehaviour
         {
             currentSpeedPoints = 5;
             space.SetActive(true);
+            bSpeedActive = true;
         }
     }
 

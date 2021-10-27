@@ -44,6 +44,7 @@ public class PlayerFear : MonoBehaviour
         currentFear += damage;
         VerifyFear();
         fearBar.SetFear(currentFear);
+        AkSoundEngine.PostEvent("Hit", gameObject);
     }
 
     public void VerifyFear()
@@ -56,6 +57,7 @@ public class PlayerFear : MonoBehaviour
         {
             currentFear = 100;
             loseCutscene.Play();
+            AkSoundEngine.PostEvent("Death", gameObject);
             // Time.timeScale = 0;
             moveScript.enabled = false;
         }

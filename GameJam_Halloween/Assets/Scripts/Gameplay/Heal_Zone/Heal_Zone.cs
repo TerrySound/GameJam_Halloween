@@ -7,6 +7,7 @@ public class Heal_Zone : MonoBehaviour
     Ghosts_Random random;
     Fear_gauge fear;
     PlayerFear player;
+    public GameObject PlayerGO;
 
     public GameObject healZone;
     // Start is called before the first frame update
@@ -27,6 +28,7 @@ public class Heal_Zone : MonoBehaviour
                 player.VerifyFear();
                 player.StartCoroutine(player.ColorHeal());
                 fear.SetFear(player.currentFear);
+                AkSoundEngine.PostEvent("Heal", PlayerGO);
                 random.SpawnCandyEtc(healZone, 1, 0.5f);
                 Destroy(gameObject);
             }
